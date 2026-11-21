@@ -1,0 +1,17 @@
+build:
+  maxIssues: 50
+style:
+  MagicNumber: { active: false }
+  MaxLineLength: { active: false }
+  WildcardImport: { active: false }
+  ReturnCount: { active: false }
+naming:
+  FunctionNaming:
+    ignoreAnnotated: ['Composable']
+  TopLevelPropertyNaming: { active: false }
+complexity:
+  LongMethod: { active: false }
+  LongParameterList: { active: false }
+  CyclomaticComplexMethod: { active: false }
+  TooManyFunctions: { active: false }
+  NestedBlockDepth: { active: false }
